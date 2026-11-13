@@ -1,0 +1,1415 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/font/font.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.rtl.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="bg-white border-bottom shadow-sm py-2" dir="rtl">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand m-0" href="#">
+            <img
+              src="./assets/font/icon.webp"
+              alt="Diyan Store"
+              width="55"
+              height="55"
+              class="img-fluid"
+            />
+          </a>
+
+          <!-- Mobile Toggle -->
+          <button
+            class="navbar-toggler border-0 shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="باز کردن منو"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menu -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto gap-lg-2 mt-3 mt-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-danger fw-semibold px-3"
+                  href="#"
+                >
+                  صفحه اصلی
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark px-3" href="#"> نمونه کارها </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark px-3" href="#"> درباره ما </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark px-3" href="#"> تماس با ما </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark px-3" href="#"> آدرس ما </a>
+              </li>
+            </ul>
+
+            <!-- Login -->
+            <div class="d-grid d-lg-block mt-3 mt-lg-0">
+              <a
+                href="#"
+                class="btn btn-danger px-4 py-2 rounded-3 fw-semibold"
+              >
+                ورود / ثبت نام
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <main class="container mt-5">
+      <!-- slider -->
+      <section
+        id="carouselExampleIndicators"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="./assets/images/mobile-banner-1.webp"
+              />
+              <img
+                src="./assets/images/00cd49ca7c5cab4a2c471ba9a7ac4c68c0e46fc2_1788957780.webp"
+                class="d-block w-100 rounded-5"
+                alt="بنر اول"
+              />
+            </picture>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="./assets/images/mobile-banner-2.webp"
+              />
+              <img
+                src="./assets/images/banner-1.webp"
+                class="d-block w-100 rounded-5"
+                alt="بنر دوم"
+              />
+            </picture>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="./assets/images/mobile-banner-3.webp"
+              />
+              <img
+                src="./assets/images/banner-2.webp"
+                class="d-block w-100 rounded-5"
+                alt="بنر سوم"
+              />
+            </picture>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <!-- Product Section Heading -->
+      <div class="container mt-5 mb-4">
+        <div class="d-flex align-items-center gap-3">
+          <div
+            class="bg-danger rounded-1"
+            style="width: 5px; height: 32px"
+          ></div>
+
+          <div>
+            <h2 class="h4 fw-bold mb-1 text-dark">دستبه بندی محصولات</h2>
+            <p class="text-muted small mb-0">جدیدترین محصولات</p>
+          </div>
+
+          <div class="flex-grow-1 border-top ms-2"></div>
+
+          <a
+            href="#"
+            class="text-danger text-decoration-none small fw-semibold"
+          >
+            مشاهده همه
+            <i class="bi bi-arrow-left"></i>
+          </a>
+        </div>
+      </div>
+      <!-- category section -->
+      <section
+        class="row row-cols-3 row-cols-sm-3 row-cols-md-6 row-cols-lg-6 mt-4"
+      >
+        <!-- col 1 -->
+        <div class="col">
+          <div
+            class="d-flex flex-column items-center justify-center animate-hover"
+          >
+            <img
+              src="https://dkstatics-public.digikala.com/digikala-admin-landing/151ec29bae111afd3b6a0e71cec5c4c26f1c3014_1740821986.jpg?x-oss-process=image/format,webp"
+              class="img-fluid"
+              alt=""
+            />
+            <h2 class="h6 text-center">لوازم خوشبو کننده</h2>
+            <button class="btn btn-danger px-2 text-btn">دیدن محصولات</button>
+          </div>
+        </div>
+        <!-- col 2 -->
+        <div class="col">
+          <div
+            class="d-flex flex-column items-center justify-center animate-hover"
+          >
+            <img
+              src="https://dkstatics-public.digikala.com/digikala-mega-menu/7cf1fed6dac6bdfd1b888db6bf8f443ea680244b_1748692252.jpg?x-oss-process=image/format,webp"
+              class="img-fluid"
+              alt=""
+            />
+            <h2 class="h6 text-center">لوازم خوشبو کننده</h2>
+            <button class="btn btn-danger px-2 text-btn">دیدن محصولات</button>
+          </div>
+        </div>
+        <!-- col 3 -->
+        <div class="col">
+          <div
+            class="d-flex flex-column items-center justify-center animate-hover"
+          >
+            <img
+              src="https://dkstatics-public.digikala.com/digikala-admin-landing/b3d4eaefebe67ab8d849296ea2e7e113cde8094c_1740821988.jpg?x-oss-process=image/format,webp"
+              class="img-fluid"
+              alt=""
+            />
+            <h2 class="h6 text-center">لوازم خوشبو کننده</h2>
+            <button class="btn btn-danger px-2 text-btn">دیدن محصولات</button>
+          </div>
+        </div>
+        <!-- col 4 -->
+        <div class="col">
+          <div
+            class="d-flex flex-column items-center justify-center animate-hover"
+          >
+            <img
+              src="https://dkstatics-public.digikala.com/digikala-admin-landing/deb3f514c62761797eb6a49e1559268b8bce3219_1740821984.jpg?x-oss-process=image/format,webp"
+              class="img-fluid"
+              alt=""
+            />
+            <h2 class="h6 text-center">لوازم خوشبو کننده</h2>
+            <button class="btn btn-danger px-2 text-btn">دیدن محصولات</button>
+          </div>
+        </div>
+        <!-- col 5 -->
+        <div class="col">
+          <div
+            class="d-flex flex-column items-center justify-center animate-hover"
+          >
+            <img
+              src="https://dkstatics-public.digikala.com/digikala-admin-landing/4d4582205d0d5045c2bd94c5e910bbb49ae4fd4e_1740821990.jpg?x-oss-process=image/format,webp"
+              class="img-fluid"
+              alt=""
+            />
+            <h2 class="h6 text-center">لوازم خوشبو کننده</h2>
+            <button class="btn btn-danger px-2 text-btn">دیدن محصولات</button>
+          </div>
+        </div>
+        <!-- col 6 -->
+        <div class="col">
+          <div
+            class="d-flex flex-column items-center justify-center animate-hover"
+          >
+            <img
+              src="https://dkstatics-public.digikala.com/digikala-admin-landing/9a4dfac524f8a865f9f69e38d5434fa69fe63e3b_1740821990.jpg?x-oss-process=image/format,webp"
+              class="img-fluid"
+              alt=""
+            />
+            <h2 class="h6 text-center">لوازم خوشبو کننده</h2>
+            <button class="btn btn-danger px-2 text-btn">دیدن محصولات</button>
+          </div>
+        </div>
+      </section>
+      <!-- Product Section Heading -->
+      <div class="container mt-5 mb-4">
+        <div class="d-flex align-items-center gap-3">
+          <div
+            class="bg-danger rounded-1"
+            style="width: 5px; height: 32px"
+          ></div>
+
+          <div>
+            <h2 class="h4 fw-bold mb-1 text-dark">محصولات</h2>
+            <p class="text-muted small mb-0">
+              جدیدترین محصولات و پیشنهادهای ویژه
+            </p>
+          </div>
+
+          <div class="flex-grow-1 border-top ms-2"></div>
+
+          <a
+            href="#"
+            class="text-danger text-decoration-none small fw-semibold"
+          >
+            مشاهده همه
+            <i class="bi bi-arrow-left"></i>
+          </a>
+        </div>
+      </div>
+      <!-- all product section -->
+      <section
+        class="row row-cols-2 row-cols-sm-3 row-cols-md-5 row-cols-lg-5 mt-2"
+      >
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-149697_e49566d8-244f-415b-a227-f7345502170a.png "
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-390330_e96a4661-571b-47ab-932a-b4ffd3d18fc0.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-165487_77719c10-38f3-430c-b650-bca7d2ac9f5a.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-149697_e49566d8-244f-415b-a227-f7345502170a.png "
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-390330_e96a4661-571b-47ab-932a-b4ffd3d18fc0.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-165487_77719c10-38f3-430c-b650-bca7d2ac9f5a.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-149697_e49566d8-244f-415b-a227-f7345502170a.png "
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-390330_e96a4661-571b-47ab-932a-b4ffd3d18fc0.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-165487_77719c10-38f3-430c-b650-bca7d2ac9f5a.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-390330_e96a4661-571b-47ab-932a-b4ffd3d18fc0.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner section -->
+      <section class="row row-cols-1 row-cols-md-2 mt-7 g-4">
+        <div class="col">
+          <div>
+            <img
+              src="https://www.technolife.com/image/banner_CenterTripletBanners_WMYjqN_e093c9b5-dad1-4e07-adfb-7ed8d00fb1ba.png"
+              alt=""
+              class="img-fluid rounded-5"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <img
+              src="https://www.technolife.com/image/banner_CenterTripletBanners_HowykW_9f433a89-e5da-473b-884b-9b97e449a1c3.png"
+              alt=""
+              class="img-fluid rounded-5"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Product Section Heading -->
+      <div class="container mt-5 mb-4">
+        <div class="d-flex align-items-center gap-3">
+          <div
+            class="bg-danger rounded-1"
+            style="width: 5px; height: 32px"
+          ></div>
+
+          <div>
+            <h2 class="h4 fw-bold mb-1 text-dark">لپ‌تاپ‌ها</h2>
+            <p class="text-muted small mb-0">
+              جدیدترین محصولات و پیشنهادهای ویژه
+            </p>
+          </div>
+
+          <div class="flex-grow-1 border-top ms-2"></div>
+
+          <a
+            href="#"
+            class="text-danger text-decoration-none small fw-semibold"
+          >
+            مشاهده همه
+            <i class="bi bi-arrow-left"></i>
+          </a>
+        </div>
+      </div>
+      <!-- all product section -->
+      <section
+        class="row row-cols-2 row-cols-sm-3 row-cols-md-5 row-cols-lg-5 mt-2"
+      >
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-442895_e391fb7b-89de-4b4b-8a59-6455eb0de500.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-435289_927723e4-0318-42e1-ad07-76b2419b7d09.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-444326_3cc2a0b0-5c4f-4122-8cea-ab3141922f9f.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-583995_d0a6742d-a477-4092-b36f-be680797a86e.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 1 -->
+        <div class="col">
+          <div class="d-flex flex-column items-center justify-center">
+            <div>
+              <img
+                src="https://www.technolife.com/image/small_product-TLP-442902_4a9bbf56-3f42-4d80-8c1c-968056da76b0.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- caption product -->
+            <div>
+              <h2 class="size-text lh-md line-clamp">
+                گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12
+                گیگابایت - Not Active رجیستر شده
+              </h2>
+              <div
+                class="d-flex gap-1 align-items-baseline justify-content-between"
+              >
+                <button
+                  class="btn btn-danger px-2 text-btn size-text d-flex gap-1 align-items-center justify-content-between"
+                >
+                  خرید
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                </button>
+                <p class="size-text">
+                  ۱,۶۵۰,۰۰۰
+                  <span>تومان</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ Section -->
+      <section class="faq-section py-5" dir="rtl">
+        <div class="container">
+          <div class="text-center mb-5">
+            <span class="faq-label text-danger">سوالات متداول</span>
+            <h3 class="fw-bold mt-3">چطور می‌تونیم کمکتون کنیم؟</h3>
+            <p class="text-muted mt-2">
+              پاسخ سوالات پرتکرار شما درباره خرید و سفارش موبایل
+            </p>
+          </div>
+
+          <div class="accordion faq-accordion mx-auto" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  چگونه می‌توانم از فروشگاه خرید کنم؟
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  محصول موردنظر خود را انتخاب کرده و به سبد خرید اضافه کنید. سپس
+                  اطلاعات ارسال را وارد کرده و با پرداخت هزینه، سفارش خود را
+                  نهایی کنید.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  آیا محصولات فروشگاه اصل هستند؟
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  تمامی محصولات مطابق با شرایط اعلام‌شده در فروشگاه عرضه
+                  می‌شوند. اطلاعات اصالت و مشخصات هر محصول را می‌توانید در صفحه
+                  اختصاصی آن مشاهده کنید.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  سفارش من چه زمانی به دستم می‌رسد؟
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  زمان تحویل سفارش با توجه به شهر مقصد و روش ارسال متفاوت است.
+                  پس از ارسال سفارش، کد رهگیری برای پیگیری در اختیار شما قرار
+                  می‌گیرد.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  آیا گوشی‌ها دارای گارانتی هستند؟
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  بله، وضعیت گارانتی و مدت اعتبار آن برای هر محصول در صفحه
+                  مشخصات کالا درج شده است.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  آیا گوشی‌ها رجیستر شده هستند؟
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  وضعیت رجیستری و فعال‌سازی هر گوشی در توضیحات محصول مشخص شده
+                  است. قبل از خرید می‌توانید این اطلاعات را بررسی کنید.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseSix"
+                >
+                  آیا امکان پرداخت در محل وجود دارد؟
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  روش‌های پرداخت فعال فروشگاه هنگام ثبت سفارش نمایش داده
+                  می‌شوند. برای اطلاع از امکان پرداخت در محل، شرایط ارسال را
+                  بررسی کنید.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="collapseSeven"
+                >
+                  آیا امکان تعویض یا مرجوع کردن کالا وجود دارد؟
+                </button>
+              </h2>
+              <div
+                id="collapseSeven"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  درخواست مرجوعی یا تعویض کالا مطابق با قوانین بازگشت کالا و
+                  شرایط اعلام‌شده در فروشگاه بررسی می‌شود. برای ثبت درخواست با
+                  پشتیبانی تماس بگیرید.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight"
+                  aria-expanded="false"
+                  aria-controls="collapseEight"
+                >
+                  چطور سفارش خود را پیگیری کنم؟
+                </button>
+              </h2>
+              <div
+                id="collapseEight"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  با ورود به حساب کاربری و مراجعه به بخش سفارش‌های من، می‌توانید
+                  وضعیت سفارش و مراحل ارسال آن را مشاهده کنید.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- blogs card -->
+      <div class="text-center mb-5">
+        <span class="faq-label text-danger">وبلاگ ما</span>
+        <h3 class="fw-bold mt-3">چطور می‌تونیم کمکتون کنیم؟</h3>
+        <p class="text-muted mt-2">
+          پاسخ سوالات شما درباره خرید و سفارش موبایل
+        </p>
+      </div>
+      <section class="row row-cols-1 row-cols-md-3 gap-">
+        <div class="col">
+          <div class="rounded-5">
+            <div>
+              <img
+                src="https://via.placeholder.com/500x300"
+                class="img-fluid rounded-start-5 rounded-end-5 rounded-bottom-0"
+                alt=""
+              />
+            </div>
+            <div class="mt-4">
+              <p class="alert alert-danger d-inline-flex size-text p-1">
+                راهنمای خرید
+              </p>
+              <h2 class="h4 fw-bold">
+                راهنمای خرید بهترین گوشی موبایل در سال ۱۴۰۵
+              </h2>
+              <p class="text-muted">
+                با نکات مهم خرید گوشی آشنا شوید و با توجه به بودجه و نیازتان،
+                بهترین انتخاب را داشته باشید.
+              </p>
+              <div class="d-flex align-items-baseline justify-content-between">
+                <a href="" class="btn btn-outline-danger">مطالعه مقاله</a>
+                <p class="text-muted">۵ دقیقه مطالعه</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="rounded-5">
+            <div>
+              <img
+                src="https://via.placeholder.com/500x300"
+                class="img-fluid rounded-start-5 rounded-end-5 rounded-bottom-0"
+                alt=""
+              />
+            </div>
+            <div class="mt-4">
+              <p class="alert alert-danger d-inline-flex size-text p-1">
+                راهنمای خرید
+              </p>
+              <h2 class="h4 fw-bold">
+                راهنمای خرید بهترین گوشی موبایل در سال ۱۴۰۵
+              </h2>
+              <p class="text-muted">
+                با نکات مهم خرید گوشی آشنا شوید و با توجه به بودجه و نیازتان،
+                بهترین انتخاب را داشته باشید.
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <a href="" class="btn btn-outline-danger">مطالعه مقاله</a>
+                <p class="text-muted">۵ دقیقه مطالعه</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="rounded-5">
+            <div>
+              <img
+                src="https://via.placeholder.com/500x300"
+                class="img-fluid rounded-start-5 rounded-end-5 rounded-bottom-0"
+                alt=""
+              />
+            </div>
+            <div class="mt-4">
+              <p class="alert alert-danger d-inline-flex size-text p-1">
+                راهنمای خرید
+              </p>
+              <h2 class="h4 fw-bold">
+                راهنمای خرید بهترین گوشی موبایل در سال ۱۴۰۵
+              </h2>
+              <p class="text-muted">
+                با نکات مهم خرید گوشی آشنا شوید و با توجه به بودجه و نیازتان،
+                بهترین انتخاب را داشته باشید.
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <a href="" class="btn btn-outline-danger">مطالعه مقاله</a>
+                <p class="text-muted">۵ دقیقه مطالعه</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer
+      class="container-fluid row row-cols-1 row-cols-md-2 py-3 my-4 border-top"
+    >
+      <div class="col">
+        <div>
+          <p class="mb-0 text-body-secondary">
+            طراحی و توسعه توسط ابوالفضل طالبی
+          </p>
+        </div>
+      </div>
+      <div class="col">
+        <div>
+          <ul class="nav justify-content-md-end">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-body-secondary">صفحه اصلی</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-body-secondary">نمونه کارها</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-body-secondary">درباره ما</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-body-secondary">تماس با ما</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-body-secondary">آدرس ما</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
