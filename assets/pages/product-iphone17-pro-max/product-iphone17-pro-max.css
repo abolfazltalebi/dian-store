@@ -1,0 +1,10 @@
+.text-custom{
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 14px;
+}
+.text-custom2{
+    text-align: justify;
+    line-height: 2.5rem;
+    font-size: 24px;
+}
