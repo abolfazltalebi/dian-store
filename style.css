@@ -8,6 +8,10 @@
 .text-btn {
   font-size: 14px;
 }
+.h-custom{
+  height: 400px;
+  
+}
 
 .animate-hover {
   transition: all ease 0.8s;
