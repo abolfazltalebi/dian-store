@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.bg-login {
+    background-image: url('../../../assets/images/login-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.size-6 {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .bg-login {
+        background-image: url('../../../assets/images/login-image-mobile.png');
+        height: 300px !important;
+    }
+}
